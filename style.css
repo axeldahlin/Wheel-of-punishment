@@ -1,0 +1,63 @@
+body {
+  padding: 100px;
+}
+
+.wheel {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border: solid black 5px;
+  border-radius: 50%;
+  position: relative;
+  transition: transform .3s;
+
+}
+
+.arrow {
+  position: absolute;
+  left: 5px;
+  width: 10px;
+  height: 40px;
+  background-color: black;
+  transform: rotate(134deg);
+}
+
+/* .rotate-1 {
+  transform: rotate(0deg);
+  transition: transform .3s;
+}
+
+.rotate-2 {
+  transform: rotate(45deg);
+  transition: transform .3s;
+
+}
+
+.rotate-3 {
+  transform: rotate(90deg);
+  transition: transform .3s;
+
+}
+
+.rotate-4 {
+  transform: rotate(135deg);
+  transition: transform .3s;
+
+}
+
+.rotate-5 {
+  transform: rotate(190deg);
+  transition: transform .3s;
+
+}
+
+.rotate-6 {
+  transform: rotate(250deg);
+  transition: transform .3s;
+
+}
+
+.rotate-7 {
+  transform: rotate(300deg);
+
+} */
