@@ -1,25 +1,49 @@
-body {
-  padding: 100px;
+@import url('https://fonts.googleapis.com/css?family=Creepster');
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
+body {
+  background: url('images/scary.jpg');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  height: 100vh;
+  font-family: "Creepster";
+
+}
 .wheel {
-  width: 200px;
-  height: 200px;
-  background-color: red;
-  border: solid black 5px;
+  width: 600px;
+  height: 600px;
+
   border-radius: 50%;
   position: relative;
   transition: transform .3s;
+  transform: rotate(0deg);
 
 }
 
-.arrow {
-  position: absolute;
-  left: 5px;
-  width: 10px;
-  height: 40px;
-  background-color: black;
-  transform: rotate(134deg);
+h1 {
+  color: white;
+  font-size: 40px;
+  line-height: 30px;
+  text-shadow: 8px 5px 10px #000;
+}
+
+img {
+  width: 100%;
+}
+
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
 }
 
 /* .rotate-1 {
